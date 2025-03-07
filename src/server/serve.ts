@@ -9,40 +9,54 @@ import { logger } from "../utils/logger.js";
 
 const html = `<!DOCTYPE html>
 <html>
-  <head>
-    <title>Mommy Bot</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Mommy loves you~!" />
-    <script src="https://cdn.nhcarrigan.com/headers/index.js" async defer></script>
-  </head>
-  <body>
-    <main>
+
+<head>
+  <title>Mommy Bot</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Mommy loves you~!" />
+  <script src="https://cdn.nhcarrigan.com/headers/index.js" async defer></script>
+</head>
+
+<body>
+  <main>
     <h1>Mommy Bot</h1>
     <section>
       <p>Mommy loves you~!</p>
-      <a href="https://mommy-slack.nhcarrigan.com/slack/install"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+      <a href="https://mommy-slack.nhcarrigan.com/slack/install" style="display: inline-block; background-color: #ffffff; color: black; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 5px;">
+        <i class="fab fa-slack"></i> Add to Slack
+      </a>
+      <a href="https://discord.com/oauth2/authorize?client_id=1347642447643017289" class="social-button discord-button" style="display: inline-block; background-color: #5865F2; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 5px;">
+        <i class="fab fa-discord"></i> Add to Discord
+      </a>
+      <a href="https://bsky.app/profile/mommy.naomi.party" class="social-button bluesky-button" style="display: inline-block; background-color: #0085FF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 5px;">
+        <i class="fab fa-bluesky"></i> Follow on Bluesky
+      </a>
+      <a href="https://fedi.nhcarrigan.com/@mommy" class="social-button mastodon-button" style="display: inline-block; background-color: #6364FF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 5px;">
+        <i class="fab fa-mastodon"></i> Follow on Mastodon
+      </a>
     </section>
     <section>
-        <h2>Links</h2>
-        <p>
-            <a href="https://git.nhcarrigan.com/nhcarrigan/mommy-bot">
-                <i class="fa-solid fa-code"></i> Source Code
-            </a>
-        </p>
-        <p>
-            <a href="https://docs.nhcarrigan.com/">
-                <i class="fa-solid fa-book"></i> Documentation
-            </a>
-        </p>
-        <p>
-            <a href="https://chat.nhcarrigan.com">
-                <i class="fa-solid fa-circle-info"></i> Support
-            </a>
-        </p>
+      <h2>Links</h2>
+      <p>
+        <a href="https://git.nhcarrigan.com/nhcarrigan/mommy-bot">
+          <i class="fa-solid fa-code"></i> Source Code
+        </a>
+      </p>
+      <p>
+        <a href="https://docs.nhcarrigan.com/">
+          <i class="fa-solid fa-book"></i> Documentation
+        </a>
+      </p>
+      <p>
+        <a href="https://chat.nhcarrigan.com">
+          <i class="fa-solid fa-circle-info"></i> Support
+        </a>
+      </p>
     </section>
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>`;
 
 /**
