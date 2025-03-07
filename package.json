@@ -1,0 +1,35 @@
+{
+  "name": "mommy-bot",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "main": "prod/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "lint": "eslint src --max-warnings 0",
+    "start": "op run --env-file=prod.env --no-masking -- node prod/index.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Naomi Carrigan",
+  "license": "See license in LICENSE.md",
+  "devDependencies": {
+    "@nhcarrigan/eslint-config": "5.2.0",
+    "@nhcarrigan/typescript-config": "4.0.0",
+    "@types/node": "22.13.9",
+    "@types/node-schedule": "2.1.7",
+    "eslint": "9.21.0",
+    "typescript": "5.8.2"
+  },
+  "dependencies": {
+    "@atproto/api": "0.14.8",
+    "@nhcarrigan/logger": "1.0.0",
+    "@slack/bolt": "4.2.1",
+    "@slack/oauth": "3.0.2",
+    "discord.js": "14.18.0",
+    "fastify": "5.2.1",
+    "no-profanity": "1.5.1",
+    "node-schedule": "2.1.1"
+  }
+}
