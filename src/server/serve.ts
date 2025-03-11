@@ -32,9 +32,6 @@ const html = `<!DOCTYPE html>
       <a href="https://bsky.app/profile/mommy.naomi.party" class="social-button bluesky-button" style="display: inline-block; background-color: #0085FF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 5px;">
         <i class="fab fa-bluesky"></i> Follow on Bluesky
       </a>
-      <a href="https://fedi.nhcarrigan.com/@mommy" class="social-button mastodon-button" style="display: inline-block; background-color: #6364FF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 5px;">
-        <i class="fab fa-mastodon"></i> Follow on Mastodon
-      </a>
     </section>
     <section>
       <h2>Links</h2>

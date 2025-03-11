@@ -74,20 +74,7 @@ scheduleJob("0 9 * * *", async() => {
   await bsky.post({
     text: response,
   });
-  await fetch(`https://fedi.nhcarrigan.com/api/notes/create`, {
-    body: JSON.stringify({
-      text:       response,
-      visibility: "public",
-    }),
-    headers: {
-      // eslint-disable-next-line @typescript-eslint/naming-convention -- Header name.
-      "Authorization": `Bearer ${process.env.FEDI_TOKEN ?? ""}`,
-      // eslint-disable-next-line @typescript-eslint/naming-convention -- Header name.
-      "Content-Type":  "application/json",
-    },
-    method: "POST",
-  });
-  await logger.log("info", "Posted to bsky and fedi!");
+  await logger.log("info", "Posted to bsky!");
 });
 
 serve();
