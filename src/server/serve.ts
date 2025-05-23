@@ -21,6 +21,7 @@ const html = `<!DOCTYPE html>
 <body>
   <main>
     <h1>Mommy Bot</h1>
+     <img src="https://cdn.nhcarrigan.com/new-avatars/mommy-full.png" width="250" alt="Mommy" />
     <section>
       <p>Mommy loves you~!</p>
       <a href="https://mommy-slack.nhcarrigan.com/slack/install" style="display: inline-block; background-color: #ffffff; color: black; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 5px;">
