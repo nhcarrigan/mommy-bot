@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/api':
-        specifier: 0.18.17
-        version: 0.18.17
+        specifier: 0.18.18
+        version: 0.18.18
       '@nhcarrigan/logger':
         specifier: 1.0.0
         version: 1.0.0
@@ -54,11 +54,11 @@ importers:
 
 packages:
 
-  '@atproto/api@0.18.17':
-    resolution: {integrity: sha512-TeJkLGPkiK3jblwTDSNTH+CnS6WgaOiHDZeVVzywtxomyyF0FpQVSMz5eP3sDhxyHJqpI3E2AOYD7PO/JSbzJw==}
+  '@atproto/api@0.18.18':
+    resolution: {integrity: sha512-Vg7/sjbwDQZDj8fXtb4E48U4gA+6RC1iSt7onGnH2NyR0E25uds1KnqSKMzqcphdJXrz5GXrgHWc747XPGibzg==}
 
-  '@atproto/common-web@0.4.13':
-    resolution: {integrity: sha512-TewRUyB/dVJ5PtI3QmJzEgT3wDsvpnLJ+48hPl+LuUueJPamZevXKJN6dFjtbKAMFRnl2bKfdsf79qwvdSaLKQ==}
+  '@atproto/common-web@0.4.14':
+    resolution: {integrity: sha512-rMU8Q+kpyPpirUS9OqT7aOD1hxKa+diem3vc7BA0lOkj0tU6wcAxegxmbPZ8JaOsR7SSYhP/jCt/5wbT4qqkuQ==}
 
   '@atproto/lex-data@0.0.9':
     resolution: {integrity: sha512-1slwe4sG0cyWtsq16+rBoWIxNDqGPkkvN+PV6JuzA7dgUK9bjUmXBGQU4eZlUPSS43X1Nhmr/9VjgKmEzU9vDw==}
@@ -2618,9 +2618,9 @@ packages:
 
 snapshots:
 
-  '@atproto/api@0.18.17':
+  '@atproto/api@0.18.18':
     dependencies:
-      '@atproto/common-web': 0.4.13
+      '@atproto/common-web': 0.4.14
       '@atproto/lexicon': 0.6.1
       '@atproto/syntax': 0.4.3
       '@atproto/xrpc': 0.7.7
@@ -2629,7 +2629,7 @@ snapshots:
       tlds: 1.256.0
       zod: 3.24.2
 
-  '@atproto/common-web@0.4.13':
+  '@atproto/common-web@0.4.14':
     dependencies:
       '@atproto/lex-data': 0.0.9
       '@atproto/lex-json': 0.0.9
@@ -2650,7 +2650,7 @@ snapshots:
 
   '@atproto/lexicon@0.6.1':
     dependencies:
-      '@atproto/common-web': 0.4.13
+      '@atproto/common-web': 0.4.14
       '@atproto/syntax': 0.4.3
       iso-datestring-validator: 2.2.2
       multiformats: 9.9.0
